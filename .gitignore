@@ -7,6 +7,12 @@ build/
 xcuserdata/
 *.xccheckout
 
+## Swift Package Manager
+.build/
+.swiftpm
+Package.resolved
+/.previous-build
+
 # old skool
 .svn
 
