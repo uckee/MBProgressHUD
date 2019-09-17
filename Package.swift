@@ -10,6 +10,6 @@ let package = Package(
         .library(name: "MBProgressHUD", targets: ["MBProgressHUD"])
     ],
     targets: [
-        .target(name: "MBProgressHUD", path: "Sources", publicHeadersPath: "Sources")
+        .target(name: "MBProgressHUD", path: "Sources")
     ]
 )
