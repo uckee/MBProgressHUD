@@ -9,8 +9,7 @@ let package = Package(
     products: [
         .library(name: "MBProgressHUD", targets: ["MBProgressHUD"])
     ],
-    dependencies: [],
     targets: [
-        .target(name: "MBProgressHUD", dependencies: [], path: "Sources")
+        .target(name: "MBProgressHUD", path: "Sources", publicHeadersPath: "Sources")
     ]
 )
